@@ -2,10 +2,14 @@ import React from 'react';
 import '../componentStyles/navbar.css';
 
 
-function navbar() {
+const navbar = (props) => {
     return (
         <div className="navbar">
-            <h1>Quizzz</h1>
+            <h1>{props.name === "Quizzz" ?
+                "Quizzz":
+                `Hey ${props.name}`
+                 }
+            </h1>
         </div>
     )
 }

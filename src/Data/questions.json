@@ -1,0 +1,92 @@
+[
+    {
+        "idx": 0,
+        "question": "Which of these best describes an array?",
+        "a": "A data structure that shows a hierarchical behavior",
+        "b": "Container of objects of similar types",
+        "c": "Arrays are immutable once initialised",
+        "d": "Array is not a data structure",
+        "correct_idx": "b"
+    },
+    {
+        "idx": 1,
+        "question": "How do you initialize an array in C?",
+        "a": "int arr[3] = (1,2,3);",
+        "b": "int arr(3) = {1,2,3};",
+        "c": "int arr[3] = {1,2,3};",
+        "d": "int arr(3) = (1,2,3);",
+        "correct_idx": "c"
+    },
+    {
+        "idx": 2,
+        "question": "When does the ArrayIndexOutOfBoundsException occur in C?",
+        "a": "Compile-time",
+        "b": "Run-time",
+        "c": "Not an error",
+        "d": "Not an exception at all",
+        "correct_idx": "b"
+    },
+    {
+        "idx": 3,
+        "question": "Assuming int is of 4bytes, what is the size of int arr[15];",
+        "a": "15",
+        "b": "19",
+        "c": "11",
+        "d": "60",
+        "correct_idx": "d"
+    },
+    {
+        "idx": 4,
+        "question": "Which of these methods returns the total number of bytes of memory available to the program in Java",
+        "a": "getMemory()",
+        "b": "TotalMemory()",
+        "c": "SystemMemory()",
+        "d": "getProcessMemory()",
+        "correct_idx": "b"
+    },
+    {
+        "idx": 5,
+        "question": " Which of these method return a pseudorandom number in Java?",
+        "a": "rand()",
+        "b": "random()",
+        "c": "randomNumber()",
+        "d": "randGenerator()",
+        "correct_idx": "b"
+    },
+    {
+        "idx": 6,
+        "question": "Which of these method returns a smallest whole number greater than or equal to variable X in Java?",
+        "a": "double ciel(double X)",
+        "b": "double floor(double X)",
+        "c": "double max(double X)",
+        "d": "double min(double X)",
+        "correct_idx": "a"
+    },
+    {
+        "idx": 7,
+        "question": "What is the limitation of toString() method of BigDecimal?",
+        "a": "There is no limitation",
+        "b": "toString returns null",
+        "c": "toString returns the number in expanded form",
+        "d": "toString uses scientific notation",
+        "correct_idx": "d"
+    },
+    {
+        "idx": 8,
+        "question": "What is BigDecimal.ONE?",
+        "a": "wrong statement",
+        "b": "custom defined statement",
+        "c": "static variable with value 1 on scale 10",
+        "d": "static variable with value 1 on scale 0",
+        "correct_idx": "d"
+    },
+    {
+        "idx": 9,
+        "question": "Which class is a library of functions to perform arithmetic operations of BigInteger and BigDecimal?",
+        "a": "MathContext",
+        "b": "MathLib",
+        "c": "BigLib",
+        "d": "BigContext",
+        "correct_idx": "d"
+    }
+]
