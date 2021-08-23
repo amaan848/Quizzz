@@ -14,3 +14,9 @@ body {
   font-family: sans-serif;
   border-bottom: 2px solid white;
 }
+
+@media (max-width: 410px) {
+  .navbar {
+    min-width: 410px;
+  }
+}

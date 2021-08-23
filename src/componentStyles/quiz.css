@@ -1,0 +1,41 @@
+.questionBar {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.quesList {
+  box-sizing: border-box;
+  margin: 1%;
+  border: 1px solid purple;
+  border-radius: 25%;
+  padding: 1%;
+}
+
+.currQues {
+  background-color: black;
+  color: white;
+}
+
+.question {
+  margin: auto;
+  width: 50%;
+  margin-top: 20%;
+  border: 2px solid purple;
+  border-radius: 7px;
+  background-color: white;
+  padding: 2%;
+}
+
+.nextButton {
+  margin-top: 1%;
+  margin-left: 45%;
+  width: 10%;
+}
+
+@media (max-width: 900px) {
+  .question {
+    min-width: 400px;
+  }
+}
